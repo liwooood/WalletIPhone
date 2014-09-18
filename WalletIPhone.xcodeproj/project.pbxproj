@@ -14,6 +14,13 @@
 		0EE86C8E19CB19E000C20317 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EE86C8D19CB19E000C20317 /* Images.xcassets */; };
 		0EE86C9119CB19E000C20317 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EE86C8F19CB19E000C20317 /* LaunchScreen.xib */; };
 		0EE86C9D19CB19E000C20317 /* WalletIPhoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE86C9C19CB19E000C20317 /* WalletIPhoneTests.m */; };
+		0EE86CA719CB20C200C20317 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE86CA619CB20C200C20317 /* LocalAuthentication.framework */; };
+		0EE86CA919CB20EB00C20317 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE86CA819CB20EB00C20317 /* CoreLocation.framework */; };
+		0EE86CAB19CB213C00C20317 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE86CAA19CB213C00C20317 /* WebKit.framework */; };
+		0EE86CAD19CB214F00C20317 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE86CAC19CB214F00C20317 /* Security.framework */; };
+		0EE86CAF19CB216E00C20317 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE86CAE19CB216E00C20317 /* PassKit.framework */; };
+		0EE86CB119CB21A700C20317 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE86CB019CB21A700C20317 /* Foundation.framework */; };
+		0EE86CB519CB247700C20317 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE86CB419CB247700C20317 /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,13 @@
 		0EE86C9619CB19E000C20317 /* WalletIPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletIPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE86C9B19CB19E000C20317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EE86C9C19CB19E000C20317 /* WalletIPhoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalletIPhoneTests.m; sourceTree = "<group>"; };
+		0EE86CA619CB20C200C20317 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		0EE86CA819CB20EB00C20317 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0EE86CAA19CB213C00C20317 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		0EE86CAC19CB214F00C20317 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0EE86CAE19CB216E00C20317 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		0EE86CB019CB21A700C20317 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0EE86CB419CB247700C20317 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EE86CB519CB247700C20317 /* CFNetwork.framework in Frameworks */,
+				0EE86CB119CB21A700C20317 /* Foundation.framework in Frameworks */,
+				0EE86CAF19CB216E00C20317 /* PassKit.framework in Frameworks */,
+				0EE86CAD19CB214F00C20317 /* Security.framework in Frameworks */,
+				0EE86CAB19CB213C00C20317 /* WebKit.framework in Frameworks */,
+				0EE86CA919CB20EB00C20317 /* CoreLocation.framework in Frameworks */,
+				0EE86CA719CB20C200C20317 /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,15 @@
 		0EE86C7419CB19E000C20317 = {
 			isa = PBXGroup;
 			children = (
+				0EE86CB419CB247700C20317 /* CFNetwork.framework */,
+				0EE86CB319CB23CE00C20317 /* 网络库 */,
+				0EE86CB219CB235C00C20317 /* 二维码 */,
+				0EE86CB019CB21A700C20317 /* Foundation.framework */,
+				0EE86CAE19CB216E00C20317 /* PassKit.framework */,
+				0EE86CAC19CB214F00C20317 /* Security.framework */,
+				0EE86CAA19CB213C00C20317 /* WebKit.framework */,
+				0EE86CA819CB20EB00C20317 /* CoreLocation.framework */,
+				0EE86CA619CB20C200C20317 /* LocalAuthentication.framework */,
 				0EE86C7F19CB19E000C20317 /* WalletIPhone */,
 				0EE86C9919CB19E000C20317 /* WalletIPhoneTests */,
 				0EE86C7E19CB19E000C20317 /* Products */,
@@ -119,6 +149,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0EE86CB219CB235C00C20317 /* 二维码 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "二维码";
+			sourceTree = "<group>";
+		};
+		0EE86CB319CB23CE00C20317 /* 网络库 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "网络库";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,6 +212,7 @@
 				TargetAttributes = {
 					0EE86C7C19CB19E000C20317 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = WWP54AB3Q7;
 					};
 					0EE86C9519CB19E000C20317 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -416,6 +461,7 @@
 				0EE86CA219CB19E000C20317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EE86CA319CB19E000C20317 /* Build configuration list for PBXNativeTarget "WalletIPhoneTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +470,7 @@
 				0EE86CA519CB19E000C20317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
